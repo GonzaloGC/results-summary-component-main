@@ -1,7 +1,7 @@
-export const Section = () => {
+export const Section = (parrafo) => {
   return (
     <section>
-      <p>Este es mi primer parrafo en React JS</p>
+      <p></p>
     </section>
   );
 };

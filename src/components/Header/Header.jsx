@@ -1,9 +1,17 @@
-import './Header.css'
+import "./Header.css";
 
-export const Header = () => {
+export const Header = ({ title }) => {
   return (
     <header>
-      <h1 className="title">Este titulo esta echo con jsx en un componente dentro de una arrow function</h1>
+      <h1 className="title">{title}</h1>
+      <div className="circleNumber">
+        <span className="soloNummber">76</span>
+        <span className="nummberOf">of 100</span>
+      </div>
+      <h2 className="subtitle">Great</h2>
+      <p className="paragraphResult">
+        You scored higher than 65% of the people who have taken these tests.
+      </p>
     </header>
   );
 };
