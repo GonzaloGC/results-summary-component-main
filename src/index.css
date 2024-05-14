@@ -16,18 +16,13 @@
 
 body {
   font-family: 'Hanken Grotesk Variable';
+  background-color: aqua;
   margin: 0;
   padding: 0;
-  display: inline-block;
+  /* height: 100%; */
+  /* display: inline-block; */
+  height: 100vh;
   display: flex;
-  place-items: center;
+  /* place-items: center; */
   justify-content: center;
-}
-
-@media only screen and (max-width: 400px) {
-  body{
-    /* background-color: #fff; */
-    display: flex;
-    justify-content: center;
-  }
 }
