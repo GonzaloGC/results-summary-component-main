@@ -12,10 +12,12 @@
 }
 
 .numOfNum{
-  color: hsl(241, 35%, 66%);
+  color: #98a1a9;
   margin-right: 40px;
   display: flex;
   gap: 5px;
+  font-weight: bolder;
+
 }
 
 .texto {
@@ -36,6 +38,21 @@
 }
 
 .boldNumber {
-  font-weight: bolder;
   color: #373e50;
+}
+
+@media (width >= 768px){
+  .info-data{
+    font-size: 18px;
+  }
+  .numOfNum{
+    margin-right: 50px;
+  }
+  .icon-Info{
+    margin-left: 50px;
+  }
+  .texto {
+    font-weight: 600;
+  }
+
 }

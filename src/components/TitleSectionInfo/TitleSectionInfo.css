@@ -5,3 +5,10 @@
   margin-left: 20px;
   margin-top: 3px;
 }
+
+@media ( width >= 768px){
+  .titleSectionInfo{
+    font-size: 25px;
+    margin-left: 32px;
+  }
+}

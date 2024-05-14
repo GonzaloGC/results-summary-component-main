@@ -30,3 +30,11 @@ body {
   justify-content: center;
   align-content: center;
 }
+
+@media (min-width: 768px) {
+  body {
+    display: flex;
+    align-items: center;
+  }
+} 
+
