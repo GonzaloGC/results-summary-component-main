@@ -1,0 +1,21 @@
+.info-data {
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 375px;
+  /* border: 3px solid white; */
+  gap: 70px;
+}
+
+.icon-Info {
+  display: flex;
+  gap: 15px;
+}
+
+span{
+  color: hsl(0, 100%, 67%);
+}
+.numOfNum{
+  color: black;
+}

@@ -1,0 +1,9 @@
+/* .infoSummary {
+  border: 2px solid white;
+
+} */
+.groupInfoData {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
