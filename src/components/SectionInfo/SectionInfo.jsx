@@ -10,10 +10,10 @@ export const SectionInfo = () => {
       <TitleSectionInfo title="Summary" />
       {/* <GroupInfoData /> */}
       <section className="groupInfoData">
-        <InfoData nameInfo="Reaction" primaryNumber="80" secondNumber="100" />
-        <InfoData nameInfo="Memory" primaryNumber="92" secondNumber="100" />
-        <InfoData nameInfo="Verbal" primaryNumber="61" secondNumber="100" />
-        <InfoData nameInfo="Visual" primaryNumber="72" secondNumber="100" />
+        <InfoData color="red" nameInfo="Reaction" primaryNumber="80" secondNumber="100" />
+        <InfoData color="yellow" nameInfo="Memory" primaryNumber="92" secondNumber="100" />
+        <InfoData color="green" nameInfo="Verbal" primaryNumber="61" secondNumber="100" />
+        <InfoData color="blue" nameInfo="Visual" primaryNumber="72" secondNumber="100" />
       </section>
       <Button msg="Continue" />
     </section>
