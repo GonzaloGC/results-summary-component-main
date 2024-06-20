@@ -37,19 +37,36 @@
   color: hsl(234, 85%, 45%);
 }
 
+.red{
+  background-color: hsla(0, 100%, 67%, 0.035);
+}
+.yellow{
+  background-color: hsl(39, 100%, 56%, 0.015);
+}
+.green{
+  background-color: hsl(166, 100%, 37%, 0.015);
+}
+.blue{
+  background-color: hsl(234, 85%, 45%, 0.015);
+}
+
 .boldNumber {
   color: #373e50;
 }
 
 @media (width >= 768px){
   .info-data{
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    width: 285px;
+    height: 54px;
     font-size: 18px;
   }
   .numOfNum{
-    margin-right: 50px;
+    margin-right: 18px;
   }
   .icon-Info{
-    margin-left: 50px;
+    margin-left: 18px;
   }
   .texto {
     font-weight: 600;
