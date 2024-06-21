@@ -26,28 +26,32 @@
 
 .texto.red {
   color: hsl(0, 100%, 67%);
+  background-color: transparent;
 }
 .texto.yellow {
   color: hsl(39, 100%, 56%);
+  background-color: transparent;
 }
 .texto.green {
   color: hsl(166, 100%, 37%);
+  background-color: transparent;
 }
 .texto.blue {
   color: hsl(234, 85%, 45%);
+  background-color: transparent;
 }
 
 .red{
   background-color: hsla(0, 100%, 67%, 0.035);
 }
 .yellow{
-  background-color: hsl(39, 100%, 56%, 0.015);
+  background-color: hsl(39, 100%, 56%, 0.035);
 }
 .green{
-  background-color: hsl(166, 100%, 37%, 0.015);
+  background-color: hsl(166, 100%, 37%, 0.035);
 }
 .blue{
-  background-color: hsl(234, 85%, 45%, 0.015);
+  background-color: hsl(234, 85%, 45%, 0.035);
 }
 
 .boldNumber {

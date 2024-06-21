@@ -7,13 +7,16 @@
   cursor: pointer;
   font-size: 17px;
   margin-top: 35px;
+  transition: background-color 0.3s ease-in-out;
 }
 .buttonContinue:hover {
-  background-image: linear-gradient(
+  background-color: #4c37f4;
+  transition: background-color 0.3s ease-in-out;
+  /* background-image: linear-gradient(
     to bottom,
     hsl(252, 100%, 67%),
     hsl(234, 85%, 45%)
-  );
+  ); */
 }
 
 @media (width >= 768px) {
@@ -21,11 +24,7 @@
     margin-top: 0;
     width: 285px;
   }
-  .buttonContinue:hover {
-    background-image: linear-gradient(
-      to bottom,
-      hsl(252, 100%, 67%),
-      hsl(234, 85%, 45%)
-    );
-  }
+  /* .buttonContinue:hover {
+    background-color: #4c37f4;
+  } */
 }
