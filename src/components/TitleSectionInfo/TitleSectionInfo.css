@@ -2,8 +2,9 @@
   align-self: flex-start;
   color: #373e50;
   font-size: large;
-  margin-left: 20px;
-  margin-top: 3px;
+  margin: 0;
+  /* margin-left: 20px;
+  margin-top: 3px; */
 }
 
 @media ( width >= 768px){

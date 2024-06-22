@@ -1,23 +1,34 @@
 .buttonContinue {
-  width: 310px;
+  /* width: 310px; */
+  width: 100%;
   height: 56px;
   border-radius: 30px;
   background-color: #303b59;
   border: none;
   cursor: pointer;
   font-size: 17px;
-  margin-top: 35px;
+  /* margin-top: 35px; */
   transition: background-color 0.3s ease-in-out;
   font-weight: 500;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
 }
 .buttonContinue:hover {
+  border-radius: 30px;
   background-color: #4c37f4;
   transition: background-color 0.3s ease-in-out;
-  /* background-image: linear-gradient(
-    to bottom,
-    hsl(252, 100%, 67%),
-    hsl(234, 85%, 45%)
-  ); */
+}
+
+.buttonContinue:active{
+  border-radius: 30px;
+}
+.buttonContinue:focus{
+  outline: none;
+  border-radius: 30px;
+}
+button:focus{
+  outline: none;
+  border-radius: 30px;
 }
 
 @media (width >= 768px) {
@@ -25,7 +36,4 @@
     margin-top: 0;
     width: 285px;
   }
-  /* .buttonContinue:hover {
-    background-color: #4c37f4;
-  } */
 }

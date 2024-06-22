@@ -28,8 +28,16 @@ body {
   justify-content: center;
   align-content: center;
 }
-
-@media (min-width: 768px) {
+@media (width>= 450px) {
+  body {
+    display: flex;
+    /* place-items: center; */
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+}
+@media (width >= 768px) {
   body {
     display: flex;
     align-items: center;
