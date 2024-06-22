@@ -64,6 +64,7 @@ header {
 .subtitle{
   margin: 0;
   text-align: center;
+  color: white;
 }
 .paragraphResult {
   color: hsl(241, 100%, 89%);
@@ -126,6 +127,7 @@ header {
     font-size: 18px;
     margin: 0;
     line-height: 18px;
+    padding-top: 1px;
   }
   .continer-subtitle-paragraph{
     display: flex;
