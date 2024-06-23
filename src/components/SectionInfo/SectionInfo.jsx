@@ -2,7 +2,7 @@ import "./SectionInfo.css";
 import { InfoData } from "../InfoData/InfoData";
 import { TitleSectionInfo } from "../TitleSectionInfo/TitleSectionInfo";
 import { Button } from "../Button/Button";
-import { data } from "@/data";
+import data from "../../data.json";
 
 export const SectionInfo = () => {
   return (
