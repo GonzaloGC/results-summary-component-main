@@ -48,19 +48,19 @@
 }
 
 .red{
-  background-color: hsla(0, 100%, 67%, 0.035);
+  background-color: hsla(0, 100%, 67%, 0.050);
   /* background-color: hsla(0, 100%, 67%, 0.495); */
 }
 .yellow{
-  background-color: hsla(39, 100%, 56%, 0.035);
+  background-color: hsla(39, 100%, 56%, 0.050);
   /* background-color: hsla(39, 100%, 56%, 0.619); */
 }
 .green{
-  background-color: hsla(166, 100%, 37%, 0.035);
+  background-color: hsla(166, 100%, 37%, 0.050);
   /* background-color: hsla(166, 100%, 37%, 0.477); */
 }
 .blue{
-  background-color: hsla(234, 85%, 45%, 0.035);
+  background-color: hsla(234, 85%, 45%, 0.050);
   /* background-color: hsla(234, 85%, 45%, 0.455); */
 }
 

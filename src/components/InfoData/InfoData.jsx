@@ -1,12 +1,12 @@
 import "./InfoData.css";
 
-export const InfoData = ({bg, color, nameInfo, primaryNumber, secondNumber}) => {
+export const InfoData = ({bg, color, nameInfo, primaryNumber, secondNumber, icon}) => {
 
   return (
     <>
       <article className={`${bg} info-data`}>
         <div className="icon-Info">
-          <img src={`src/assets/images/icon-${nameInfo}.svg`} alt="" />
+          <img src={icon} alt="" />
           <span className={`texto ${color}`}>{nameInfo}</span>
         </div>
         <div className="numOfNum">
