@@ -2,9 +2,45 @@ import "./SectionInfo.css";
 import { InfoData } from "../InfoData/InfoData";
 import { TitleSectionInfo } from "../TitleSectionInfo/TitleSectionInfo";
 import { Button } from "../Button/Button";
-import data from "../../data.json";
+// import data from "../../data.json";
 
 export const SectionInfo = () => {
+  
+  const data = [
+    {
+      nameInfo: "Reaction",
+      primaryNumber: "80",
+      secondNumber: "100",
+      icon:"/icon/icon-Reaction.svg",
+      bg: "red",
+      color: "red",
+    },
+    {
+      nameInfo: "Memory",
+      primaryNumber: "92",
+      secondNumber: "100",
+      icon:"/icon/icon-Memory.svg",
+      bg: "yellow",
+      color: "yellow",
+    },
+    {
+      nameInfo: "Verbal",
+      primaryNumber: "61",
+      secondNumber: "100",
+      icon:"/icon/icon-Verbal.svg",
+      bg: "green",
+      color: "green",
+    },
+    {
+      nameInfo: "Visual",
+      primaryNumber: "72",
+      secondNumber: "100",
+      icon:"/icon/icon-Visual.svg",
+      bg: "blue",
+      color: "blue",
+    },
+  ];
+
   return (
     <section className="infoSummary">
       <TitleSectionInfo title="Summary" />
