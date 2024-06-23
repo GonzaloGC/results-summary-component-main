@@ -1,6 +1,6 @@
 #  Results summary component
 
-This small project was created using React, TypeScript and Vite.js, a fast and modern build tool for web projects.
+This small project was created using React with Vite.js.
 
 ## Getting Started
 
