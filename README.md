@@ -30,8 +30,8 @@ This command serves the files generated from the build command locally, allowing
 
 ### Screenshot
 
-![](public/screenshot/screenshot-desktop-up.png)
-![](public/screenshot/screenshot-mobile-up.png)
+![](./public/screenshot/screenshot-desktop-up.png)
+![](./public/screenshot/screenshot-mobile-up.png)
 
 ### Links
 
