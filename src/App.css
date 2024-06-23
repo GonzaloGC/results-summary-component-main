@@ -16,7 +16,9 @@
 }
 @media (width >= 768px) {
   .container {
-    box-shadow: 0 0px 50px 10px hsla(0, 0%, 0%, 0.120);
+    /* box-shadow: 10px 10px 15px hsla(241, 81%, 54%, 0.232); */
+    box-shadow: 100px 100px 150px 0px hsla(0, 0%, 0%, 0.119);
+    /* box-shadow: 10px 10px 15px hsla(0, 0%, 0%, 0.120); */
     border-radius: 30px;
     display: flex;
     justify-content: center;
