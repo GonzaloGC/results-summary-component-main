@@ -1,10 +1,6 @@
 #  Results summary component
 
-<<<<<<< HEAD
 This small project was created using React and Vite.js.
-=======
-This small project was created using React with Vite.js.
->>>>>>> 27def026103e38ae445140c93ded8717a2f826a2
 
 ## Getting Started
 
@@ -53,13 +49,10 @@ This command starts a local development server with hot module replacement, allo
 - [React](https://reactjs.org/) - JS library
 - [Vite js](https://vitejs.dev/) - Next Generation Frontend Tooling
 
-## Author
+### Author
 
 - Frontend Mentor - [@GonzaloGC](https://www.frontendmentor.io/profile/GonzaloGC)
 - Twitter - [@gonzaloelias](https://twitter.com/gonzaloelias)
-<<<<<<< HEAD
 
-## Licencia
-Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo LICENSE para obtener más detalles.
-=======
->>>>>>> 27def026103e38ae445140c93ded8717a2f826a2
+### Licencia
+- Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo LICENSE para obtener más detalles.
