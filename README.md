@@ -54,5 +54,5 @@ This command starts a local development server with hot module replacement, allo
 - Frontend Mentor - [@GonzaloGC](https://www.frontendmentor.io/profile/GonzaloGC)
 - Twitter - [@gonzaloelias](https://twitter.com/gonzaloelias)
 
-### Licencia
-- Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo LICENSE para obtener más detalles.
+### License
+- This project is licensed under the MIT License. Please see the LICENSE file for more details.
